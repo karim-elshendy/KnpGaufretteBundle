@@ -17,7 +17,7 @@
     ],
     "require":      {
         "symfony/framework-bundle": "~2.0|~3.0",
-        "knplabs/gaufrette":        "~0.1.7|~0.2|~0.3"
+        "knplabs/gaufrette":        "dev-aws-s3-getUrl-fix"
     },
     "require-dev": {
         "symfony/yaml": "~2.0|~3.0",
@@ -33,5 +33,11 @@
         "branch-alias": {
             "dev-master": "0.4.x-dev"
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url":  "git@github.com:karim-elshendy/Gaufrette.git"
+        }
+    ]
 }
