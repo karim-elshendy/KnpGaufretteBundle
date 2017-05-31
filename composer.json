@@ -17,7 +17,7 @@
     ],
     "require":      {
         "symfony/framework-bundle": "~2.0|~3.0",
-        "knplabs/gaufrette":        "dev-aws-s3-getUrl-fix"
+        "knplabs/gaufrette":        "dev-awsS3GetUrlFix"
     },
     "require-dev": {
         "symfony/yaml": "~2.0|~3.0",
